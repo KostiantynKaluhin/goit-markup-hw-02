@@ -1,0 +1,27 @@
+:root {
+}
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+/*  */
+.list {
+  list-style: none;
+}
+/* основной цвет текста #212121; */
+/* вторичный цвет текста #757575; */
+/* белый #FFFFFF; */
+/* синий #2196F3 */
+/* с прозрачностью rgba(255, 255, 255, 0.6); */
+
+.logo {
+  color: #000000;
+}
+/* Навигация */
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
