@@ -3,7 +3,7 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --white-color: #ffffff;
-  --background-hero: #2f303a;
+  --background-black: #2f303a;
   --background-section: #f5f4fa;
 }
 body {
@@ -63,7 +63,7 @@ body {
 /* сss для странички "Студия" */
 /* hero */
 .section-hero {
-  background-color: var(--background-hero);
+  background-color: var(--background-black);
 }
 .hero-title {
   color: var(--white-color);
@@ -78,6 +78,10 @@ body {
   background-color: var(--accent-color);
   cursor: pointer;
   font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 /* features */
 .features h3 {
@@ -124,6 +128,10 @@ body {
   color: var(--title-text-color);
   background-color: var(--background-section);
   cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 .button-secondary:hover,
 .button-secondary:focus {
@@ -143,7 +151,7 @@ body {
 }
 /* foter */
 .page-foter {
-  background-color: var(--background-hero);
+  background-color: var(--background-black);
   font-size: 14px;
   line-height: 1.7;
 }
