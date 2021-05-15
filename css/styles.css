@@ -1,19 +1,22 @@
 :root {
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --background-hero: #2f303a;
+  --background-section: #f5f4fa;
 }
 body {
-  background-color: #ffffff;
-  color: #757575;
+  background-color: var(--white-color);
+  color: var(--main-text-color);
 }
 /*  */
 .list {
   list-style: none;
 }
-/* основной цвет текста #212121; */
-/* вторичный цвет текста #757575; */
-/* белый #FFFFFF; */
-/* синий #2196F3 */
-/* с прозрачностью rgba(255, 255, 255, 0.6); */
 
+/* с прозрачностью rgba(255, 255, 255, 0.6); */
+/* header */
 .logo {
   color: #000000;
 }
@@ -23,5 +26,76 @@ body {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* контакты */
+.contacts a {
+  color: var(--main-text-color);
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent-color);
+}
+/* сss для странички "Студия" */
+/* hero */
+.section-hero {
+  background-color: var(--background-hero);
+}
+.hero-title {
+  color: var(--white-color);
+}
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+/* features */
+.features h3 {
+  color: var(--title-text-color);
+}
+/* section */
+.section > h2 {
+  color: var(--title-text-color);
+}
+/* team */
+.team-section {
+  background-color: #f5f4fa;
+}
+.team-section h3,
+.team {
+  color: var(--title-text-color);
+}
+/* css для "Портфолио" */
+.button-primary {
+  color: var(--title-text-color);
+  background-color: var(--background-section);
+  cursor: pointer;
+}
+.button-secondary:hover,
+.button-secondary:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.portfolio h2 {
+  color: var(--title-text-color);
+}
+/* foter */
+.page-foter {
+  background-color: var(--background-hero);
+}
+.foter-logo {
+  color: var(--white-color);
+}
+.address-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-section {
+  color: var(--white-color);
+}
+.address-contacts:focus,
+.address-contacts:hover {
+  color: var(--accent-color);
 }
