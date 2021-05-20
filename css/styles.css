@@ -7,6 +7,7 @@
   --background-black: #2f303a;
   --background-section: #f5f4fa;
   --main-font: Roboto, sans-serif;
+  --main-foter-color: #000000;
 }
 body {
   background-color: var(--white-color);
@@ -22,12 +23,15 @@ body {
 /* header */
 .logo,
 .foter-logo {
-  color: #000000;
+  color: var(--main-foter-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+}
+.logo-accent {
+  color: var(--accent-color);
 }
 .foter-logo {
   color: var(--white-color);
@@ -83,6 +87,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  border: none;
 }
 /* features */
 .features h3 {
@@ -105,7 +110,7 @@ body {
 }
 /* team */
 .team-section {
-  background-color: #f5f4fa;
+  background-color: var(--background-section);
 }
 .team-section h3,
 .team {
@@ -133,6 +138,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  border: none;
 }
 .button-secondary:hover,
 .button-secondary:focus {
